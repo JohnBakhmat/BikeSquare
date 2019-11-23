@@ -1,0 +1,631 @@
+*
+{
+    user-select: none;
+}
+
+*:focus
+{
+    outline: none;
+}
+
+html, body
+{
+   height: 100%;
+   min-height:100%;
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: rgba(0, 249, 0, 0);
+}
+
+#app-cover
+{
+    display: table;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    width: 600px;
+    margin: -210px auto 0 auto;
+    counter-reset: button-counter;
+}
+
+.row
+{
+    display: table-row;
+}
+
+.toggle-button-cover
+{
+    display: table-cell;
+    position: relative;
+    width: 1cm;
+    height: 1cm;
+    box-sizing: border-box;
+}
+
+.button-cover
+{
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0 3px 0 #e7efef;
+}
+
+.button-cover:before
+{
+    counter-increment: button-counter;
+    content: counter(button-counter);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #e7efef;
+    font-size: 12px;
+    line-height: 1;
+    padding: 5px;
+}
+
+.button-cover, .knobs, .layer
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.button
+{
+    position: relative;
+    top: 50%;
+    width: 74px;
+    height: 36px;
+    margin: -20px auto 0 auto;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.button.r, .button.r .layer
+{
+    border-radius: 100px;
+}
+
+.button.b2
+{
+    border-radius: 2px;
+}
+
+.checkbox
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.knobs
+{
+    z-index: 2;
+}
+
+.layer
+{
+    width: 100%;
+    background-color: #ebf7fc;
+    transition: 0.3s ease all;
+    z-index: 1;
+}
+
+/* Button 1 */
+#button-1 .knobs:before
+{
+    content: 'NO';
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 20px;
+    height: 10px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+    background-color: #f44336;
+    padding: 9px 4px;
+    border-radius: 50%;
+    transition: 0.3s cubic-bezier(0.18, 0.89, 0.35, 1.15) all;
+}
+
+#button-1 .checkbox:checked + .knobs:before
+{
+    content: 'YES';
+    left: 42px;
+    background-color: #3ec843;
+}
+
+#button-1 .checkbox:checked ~ .layer
+{
+    background-color: #e2fcdf;
+}
+
+#button-1 .knobs, #button-1 .knobs:before, #button-1 .layer
+{
+    transition: 0.3s ease all;
+}
+
+/* Button 2 */
+#button-2 .knobs:before, #button-2 .knobs:after
+{
+    content: 'YES';
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 20px;
+    height: 10px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+    padding: 9px 4px;
+    background-color: #03A9F4;
+    border-radius: 50%;
+    transition: 0.3s ease all;
+}
+
+#button-2 .knobs:before
+{
+    content: 'YES';
+}
+
+#button-2 .knobs:after
+{
+    content: 'NO';
+}
+
+#button-2 .knobs:after
+{
+    right: -28px;
+    left: auto;
+    background-color: #F44336;
+}
+
+#button-2 .checkbox:checked + .knobs:before
+{
+    left: -28px;
+}
+
+#button-2 .checkbox:checked + .knobs:after
+{
+    right: 4px;
+}
+
+#button-2 .checkbox:checked ~ .layer
+{
+    background-color: #fcebeb;
+}
+
+/* Button 3 */
+#button-3 .knobs:before
+{
+    content: 'YES';
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 20px;
+    height: 10px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+    padding: 9px 4px;
+    background-color: #03A9F4;
+    border-radius: 50%;
+    transition: 0.3s ease all, left 0.3s cubic-bezier(0.18, 0.89, 0.35, 1.15);
+}
+
+#button-3 .checkbox:active + .knobs:before
+{
+    width: 46px;
+    border-radius: 100px;
+}
+
+#button-3 .checkbox:checked:active + .knobs:before
+{
+    margin-left: -26px;
+}
+
+#button-3 .checkbox:checked + .knobs:before
+{
+    content: 'NO';
+    left: 42px;
+    background-color: #F44336;
+}
+
+#button-3 .checkbox:checked ~ .layer
+{
+    background-color: #fcebeb;
+}
+
+/* Button 4 */
+#button-4 .knobs:before, #button-4 .knobs:after
+{
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 20px;
+    height: 10px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+    padding: 9px 4px;
+    background-color: #03A9F4;
+    border-radius: 50%;
+    transition: 0.3s cubic-bezier(0.18, 0.89, 0.35, 1.15) all;
+}
+
+#button-4 .knobs:before
+{
+    content: 'YES';
+}
+
+#button-4 .knobs:after
+{
+    content: 'NO';
+}
+
+#button-4 .knobs:after
+{
+    top: -28px;
+    right: 4px;
+    left: auto;
+    background-color: #F44336;
+}
+
+#button-4 .checkbox:checked + .knobs:before
+{
+    top: -28px;
+}
+
+#button-4 .checkbox:checked + .knobs:after
+{
+    top: 4px;
+}
+
+#button-4 .checkbox:checked ~ .layer
+{
+    background-color: #fcebeb;
+}
+
+/* Button 5 */
+#button-5
+{
+    perspective: 60px;
+    overflow: visible;
+}
+
+#button-5 .knobs:before, #button-5 .knobs span
+{
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 20px;
+    height: 10px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+    padding: 9px 4px;
+    border-radius: 50%;
+    transition: 0.3s cubic-bezier(0.18, 0.89, 0.35, 1.15) all;
+}
+
+#button-5 .knobs:before
+{
+    background-color: #03A9F4;
+}
+
+#button-5 .knobs span:before
+{
+    content: 'YES';
+}
+
+#button-5 .knobs:before, #button-5 .layer
+{
+    transform: rotateY(0);
+    transform-origin: center;
+}
+
+#button-5 .checkbox:checked + .knobs:before, #button-5 .checkbox:checked + .knobs span
+{
+    left: 42px;
+}
+
+#button-5 .checkbox:checked + .knobs:before
+{
+    transform: rotateY(180deg);
+    background-color: #f44336;
+}
+
+#button-5 .checkbox:checked + .knobs span:before
+{
+    content: 'NO';
+    left: 42px;
+}
+
+#button-5 .checkbox:checked ~ .layer
+{
+    background-color: #fcebeb;
+    transform: rotateY(-180deg);
+}
+
+#button-5 .knobs, #button-5 .knobs:before, #button-5 .layer
+{
+    transition: 0.3s ease all;
+}
+
+/* Button 6 */
+#button-6
+{
+    overflow: visible;
+}
+
+#button-6 .knobs:before
+{
+    content: 'YES';
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 20px;
+    height: 10px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+    padding: 9px 4px;
+    background-color: #03A9F4;
+    border-radius: 50%;
+}
+
+#button-6 .layer, #button-6 .knobs, #button-6 .knobs:before
+{
+    transform: rotateZ(0);
+    transition: 0.4s cubic-bezier(0.18, 0.89, 0.35, 1.15) all;
+}
+
+#button-6 .checkbox:checked + .knobs
+{
+    transform: rotateZ(-180deg);
+}
+
+#button-6 .checkbox:checked + .knobs:before
+{
+    content: 'NO';
+    background-color: #f44336;
+    transform: rotateZ(180deg);
+}
+
+#button-6 .checkbox:checked ~ .layer
+{
+    background-color: #fcebeb;
+    transform: rotateZ(180deg);
+}
+
+/* Button 7 */
+#button-7 .knobs:before, #button-7 .knobs:after, #button-7 .knobs span
+{
+    position: absolute;
+    top: 4px;
+    width: 20px;
+    height: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+    padding: 9px 4px;
+    border-radius: 2px;
+    transition: 0.3s ease all;
+}
+
+#button-7 .knobs:before
+{
+    content: '';
+    left: 4px;
+    background-color: #03A9F4;
+}
+
+#button-7 .knobs:after
+{
+    content: 'NO';
+    right: 4px;
+    color: #4e4e4e;
+}
+
+#button-7 .knobs span
+{
+    display: inline-block;
+    left: 4px;
+    color: #fff;
+    z-index: 1;
+}
+
+#button-7 .checkbox:checked + .knobs span
+{
+    color: #4e4e4e;
+}
+
+#button-7 .checkbox:checked + .knobs:before
+{
+    left: 42px;
+    background-color: #F44336;
+}
+
+#button-7 .checkbox:checked + .knobs:after
+{
+    color: #fff;
+}
+
+#button-7 .checkbox:checked ~ .layer
+{
+    background-color: #fcebeb;
+}
+
+/* Button 8 */
+#button-8
+{
+    overflow: visible;
+}
+
+#button-8 .knobs
+{
+    perspective: 70px;
+}
+
+#button-8 .knobs:before, #button-8 .knobs:after, #button-8 .knobs span
+{
+    position: absolute;
+    top: 4px;
+    border-radius: 2px;
+}
+
+#button-8 .knobs:before, #button-8 .knobs:after
+{
+    width: 20px;
+    height: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+    padding: 9px 4px;
+}
+
+#button-8 .knobs:before
+{
+    content: 'YES';
+    left: 4px;
+}
+
+#button-8 .knobs:after
+{
+    content: 'NO';
+    right: 4px;
+}
+
+#button-8 .knobs span
+{
+    right: 4px;
+    width: 33px;
+    height: 28px;
+    background-color: #03a9f4;
+    transform: rotateY(0);
+    transform-origin: 0% 50%;
+    transition: 0.6s ease all;
+    z-index: 1;
+}
+
+#button-8 .checkbox:checked + .knobs span
+{
+    transform: rotateY(-180deg);
+    background-color: #f44336;
+}
+
+#button-8 .checkbox:checked ~ .layer
+{
+    background-color: #fcebeb;
+}
+
+/* Button 9 */
+#button-9 .knobs
+{
+    color: #4e4e4e;
+}
+
+#button-9 .knobs:before, #button-9 .knobs:after, #button-9 .knobs span, #button-9 .knobs span:before, #button-9 .knobs span:after
+{
+    position: absolute;
+    top: 4px;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+    border-radius: 2px;
+    transition: 0.3s ease all;
+}
+
+#button-9 .knobs:before
+{
+    content: 'YES';
+    left: 4px;
+}
+
+#button-9 .knobs:after
+{
+    content: 'NO';
+    right: 4px;
+}
+
+#button-9 .knobs:before, #button-9 .knobs:after
+{
+    width: 27px;
+    height: 10px;
+    padding: 9px 3px;
+    z-index: 1;
+}
+
+#button-9 .knobs span
+{
+    display: inline-block;
+    z-index: 2;
+}
+
+#button-9 .knobs span, #button-9 .knobs span:before, #button-9 .knobs span:after
+{
+    width: 20px;
+    height: 10px;
+    padding: 9px 4px;
+}
+
+#button-9 .knobs span:before, #button-9 .knobs span:after
+{
+    content: '';
+    top: 0;
+}
+
+#button-9 .knobs span:before
+{
+    left: -28px;
+    background-color: #F44336;
+}
+
+#button-9 .knobs span:after
+{
+    right: -42px;
+    background-color: #03A9F4;
+}
+
+#button-9 .checkbox:checked + .knobs span:before
+{
+    left:4px;
+}
+
+#button-9 .checkbox:checked + .knobs span:after
+{
+    right: -74px;
+}
+
+#button-9 .checkbox:checked ~ .layer
+{
+    background-color: #fcebeb;
+}

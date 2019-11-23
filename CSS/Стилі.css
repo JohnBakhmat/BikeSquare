@@ -1,0 +1,53 @@
+html{
+    background: url("https://sochi.scapp.ru/wp-content/uploads/post/2016/07/5-5.jpg") fixed;
+    background-size: 100%;
+
+}
+label, h1{
+    width: 300px;
+    height: 100px;
+    color: #8b0900;
+    font-family: "Comic Sans MS";
+    font-size: x-large;
+}
+@font-face {
+    font-family: "Brush";
+    src: url("../fonts/Brush.ttf") format("truetype");
+}
+b{
+    background-color: rgb(255, 245, 209);
+}
+.buttons{
+    width: 300px;
+    height: 100px;
+    color: #8b0900;
+    font-family: "Brush";
+    font-size: xx-large;
+    background-color: #ffcfbf;
+    padding: auto;
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: #b07500;
+}
+#order, #rent, #first{
+    padding-top: 100px;
+}
+.pos{
+    width: 50%;
+    float: left;
+    padding-left: 200px;
+    padding-top: 10px;
+    position: center;
+
+}
+.pos2{
+    width: 40%;
+    float: right;
+    position: relative;
+    top: 10px;
+}
+img{
+    border: 2px solid #8b0900;
+    width: 350px;
+    height: 250px;
+}
