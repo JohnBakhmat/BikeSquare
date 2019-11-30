@@ -61,13 +61,6 @@ p{
     position: relative;
     top: 10px;
 }
-.pos3{
-    width: 1%;
-    position: fixed;
-    float: bottom;
-    bottom: 10px;
-    right: 70px;
-}
 img{
     border: 2px solid #8b0900;
     width: 350px;
