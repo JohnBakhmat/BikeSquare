@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JavaScript-modules-diagram</ID>
+  <OriginalElement>/Users/mrdiviner/Downloads/Telegram Desktop/Проект</OriginalElement>
+  <nodes>
+    <node x="824.0955784594437" y="229.9816946900118">/Users/mrdiviner/Downloads/Telegram Desktop/Проект/bikes/1.jpg</node>
+    <node x="759.7031745842381" y="98.87777840758068">/Users/mrdiviner/Downloads/Telegram Desktop/Проект/bikes/10.jpg</node>
+    <node x="645.4214969371081" y="15.070868639236494">/Users/mrdiviner/Downloads/Telegram Desktop/Проект/bikes/2.jpg</node>
+    <node x="504.95159134517223" y="0.0">/Users/mrdiviner/Downloads/Telegram Desktop/Проект/bikes/4.jpg</node>
+    <node x="374.7547912667378" y="54.842672326252">/Users/mrdiviner/Downloads/Telegram Desktop/Проект/bikes/5.jpg</node>
+    <node x="287.4044884234587" y="165.8780272891462">/Users/mrdiviner/Downloads/Telegram Desktop/Проект/bikes/6.jpg</node>
+    <node x="264.75448897497296" y="305.32659480969147">/Users/mrdiviner/Downloads/Telegram Desktop/Проект/bikes/7.jpg</node>
+    <node x="437.14398871085695" y="540.0684944090019">/Users/mrdiviner/Downloads/Telegram Desktop/Проект/bikes/8.jpg</node>
+    <node x="813.2648180629494" y="370.8419803910648">/Users/mrdiviner/Downloads/Telegram Desktop/Проект/bikes/9.jpg</node>
+    <node x="1034.2553402020415" y="534.6201544639072">/Users/mrdiviner/Downloads/Telegram Desktop/Проект/js/collected_bikes.js</node>
+    <node x="1089.6705651756859" y="346.01924985243306">/Users/mrdiviner/Downloads/Telegram Desktop/Проект/CSS/style.css</node>
+    <node x="934.2964974151422" y="667.2605039427249">/Users/mrdiviner/Downloads/Telegram Desktop/Проект/Головна.html</node>
+    <node x="646.1284858962651" y="837.5024715658068">/Users/mrdiviner/Downloads/Telegram Desktop/Проект/Данные аренды.html</node>
+    <node x="0.0" y="529.5841243483171">/Users/mrdiviner/Downloads/Telegram Desktop/Проект/Данные покупки.html</node>
+    <node x="307.86024133839146" y="446.6302169881949">/Users/mrdiviner/Downloads/Telegram Desktop/Проект/Каталог 1.html</node>
+    <node x="717.3865933358124" y="495.54502393714665">/Users/mrdiviner/Downloads/Telegram Desktop/Проект/Каталог 2.html</node>
+    <node x="494.99276819226935" y="828.6599316655658">/Users/mrdiviner/Downloads/Telegram Desktop/Проект/Про нас.html</node>
+    <node x="112.88263415828385" y="712.1109937889346">/Users/mrdiviner/Downloads/Telegram Desktop/Проект/Произвести оплату.html</node>
+    <node x="819.1513266316282" y="756.2746948135925">/Users/mrdiviner/Downloads/Telegram Desktop/Проект/Спасибо.html</node>
+    <node x="576.7194187228795" y="559.3655158550312">/Users/mrdiviner/Downloads/Telegram Desktop/Проект/CSS/Стилі.css</node>
+    <node x="319.7176246021508" y="804.3709353835173">/Users/mrdiviner/Downloads/Telegram Desktop/Проект/Тип покупки.html</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/Каталог 1.html" target="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/bikes/8.jpg">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/Спасибо.html" target="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/CSS/Стилі.css">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/Данные покупки.html" target="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/CSS/Стилі.css">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/Каталог 2.html" target="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/bikes/6.jpg">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/Каталог 2.html" target="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/bikes/4.jpg">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/Каталог 1.html" target="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/bikes/2.jpg">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/Каталог 2.html" target="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/bikes/10.jpg">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/Тип покупки.html" target="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/CSS/Стилі.css">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/Каталог 1.html" target="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/bikes/9.jpg">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/Каталог 2.html" target="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/bikes/7.jpg">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/Каталог 2.html" target="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/js/collected_bikes.js">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/Каталог 1.html" target="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/bikes/1.jpg">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/Каталог 1.html" target="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/bikes/6.jpg">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/Каталог 1.html" target="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/bikes/5.jpg">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/Каталог 2.html" target="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/bikes/8.jpg">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/Головна.html" target="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/CSS/Стилі.css">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/Каталог 2.html" target="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/bikes/2.jpg">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/Каталог 1.html" target="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/CSS/Стилі.css">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/Каталог 2.html" target="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/bikes/9.jpg">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/Каталог 1.html" target="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/bikes/10.jpg">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/Каталог 1.html" target="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/bikes/7.jpg">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/Произвести оплату.html" target="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/CSS/Стилі.css">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/Данные аренды.html" target="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/CSS/Стилі.css">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/Каталог 2.html" target="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/CSS/Стилі.css">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/Каталог 1.html" target="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/bikes/4.jpg">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/Каталог 2.html" target="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/bikes/1.jpg">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/Каталог 2.html" target="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/CSS/style.css">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/Про нас.html" target="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/CSS/Стилі.css">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/Каталог 2.html" target="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/bikes/5.jpg">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Orthogonal" zoom="0.6786922209695603" x="607.0" y="433.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>All</Category>
+  </Categories>
+  <VISIBILITY>Overview</VISIBILITY>
+</Diagram>
+
