@@ -51,7 +51,7 @@
       <point x="0.0" y="0.0" />
       <point x="0.0" y="0.0" />
     </edge>
-    <edge source="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/Каталог 2.html" target="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/bikes/10.jpg">
+    <edge source="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/Каталог 1.html" target="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/bikes/9.jpg">
       <point x="0.0" y="0.0" />
       <point x="0.0" y="0.0" />
     </edge>
@@ -59,7 +59,7 @@
       <point x="0.0" y="0.0" />
       <point x="0.0" y="0.0" />
     </edge>
-    <edge source="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/Каталог 1.html" target="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/bikes/9.jpg">
+    <edge source="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/Каталог 2.html" target="/Users/mrdiviner/Downloads/Telegram Desktop/Проект/bikes/10.jpg">
       <point x="0.0" y="0.0" />
       <point x="0.0" y="0.0" />
     </edge>
@@ -144,8 +144,10 @@
       <point x="0.0" y="0.0" />
     </edge>
   </edges>
-  <settings layout="Orthogonal" zoom="0.6786922209695603" x="607.0" y="433.5" />
-  <SelectedNodes />
+  <settings layout="Orthogonal" zoom="0.9405644037984047" x="740.2010424705286" y="511.52985806562117" />
+  <SelectedNodes>
+    <node>/Users/mrdiviner/Downloads/Telegram Desktop/Проект/Тип покупки.html</node>
+  </SelectedNodes>
   <Categories>
     <Category>All</Category>
   </Categories>
